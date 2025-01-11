@@ -13,7 +13,7 @@ import (
 
 func main() {
 	port := os.Getenv("PORT")
-	if port == " "{
+	if port == ""{
 		port=8000
 	}
 
@@ -22,10 +22,10 @@ func main() {
 
 	router:= gin.New()
 
-	router.Use(gin.Logger())
+	router.Use(middleware.LoggerMiddleware())
 
 	routes.UserRoutes(router)
-	router.Use(middleware.Authentication())
+	router.Use(middleware.AuthMiddleware())
 
 	router.GET("/add-to-cart", app.AddToCart())
 	router.GET("/checkout", app.Checkout())
