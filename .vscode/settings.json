@@ -1,0 +1,178 @@
+{
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    // "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.mouseWhellZoom": true,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+  
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[go]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8",
+      "editor.formatOnSave": true
+    },
+  
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma",
+      "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "eslint.alwaysShowStatus": true,
+    //terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.suggest.enabled": true,
+    // Theme of editor
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    // "workbench.colorTheme": "Learn with Sumit - Professional",
+    // terminal customization
+    "workbench.colorCustomizations": {
+      "terminal.background": "#1D2021",
+      "terminal.foreground": "#A89984",
+      "terminalCursor.background": "#A89984",
+      "terminalCursor.foreground": "#A89984",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#FAC03B",
+      "terminal.ansiCyan": "#8BA59B",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B",
+      "tree.indentGuidesStroke": "#05ef3c"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorBlinking": "expand",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.cursorStyle": "line",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "none",
+    "editor.mouseWheelZoom": true,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prisma.showPrismaDataPlatformNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": [
+          "-NoExit",
+          "-Command",
+          "oh-my-posh init pwsh | Invoke-Expression"
+        ]
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "gitlens.gitCommands.skipConfirmations": [
+      "fetch:command",
+      "stash-push:command",
+      "focus:command"
+    ],
+    "editor.fontSize": 14,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.launchpad.indicator.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "vs-kubernetes": {
+      "vscode-kubernetes.minikube-path-windows": "C:\\Users\\USER\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false
+    },
+    "editor.stickyScroll.enabled": false,
+    "database-client.autoSync": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/.hg/store/**": true,
+      "**/dist/**": true,
+      "**/node_modules/**": true
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "window.customTitleBarVisibility": "auto",
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "yaml.schemas": {
+      "file:///home/shimul/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Theme",
+  }
