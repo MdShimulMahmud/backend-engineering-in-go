@@ -41,7 +41,7 @@
     },
     "[go]": {
       "editor.formatOnSave": true,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "golang.go"
     },
   
     "[python]": {
